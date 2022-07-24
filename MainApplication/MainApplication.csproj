@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>$(SolutionName).$(MSBuildProjectName)</RootNamespace>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <Authors>4JET</Authors>
+        <Company>4JET</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Tools\Tools.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Ressources" />
+    </ItemGroup>
+</Project>
